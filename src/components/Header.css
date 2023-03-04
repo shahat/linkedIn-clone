@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: aqua;
+  display: flex;
+}
+.header__left {
+  /* background-color: red; */
+  display: flex;
+}
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+}
+.header__search {
+  padding: 10px;
+  height: 22px;
+
+  align-items: center;
+  color: gray;
+}
+.header__left input {
+  outline: none;
+  border: none;
+  background: none;
+  padding-left: 5px;
+}
